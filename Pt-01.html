@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<meta charset="utf-8">
+
+	<title>Finding the width and the height of various elements</title>
+
+	<style>
+		div{
+			height: 75px;
+			width: 200px;
+			padding: 10px;
+			margin: 3px;
+			border: 1px solid blue;
+			background-color: #666; 
+
+		}
+	</style>
+
+<script>
+	$(document).ready(function(){
+		console.log("the width of the paragraph is:" + $('p').width());
+		console.log("the width of the window:" + $('div').width());
+	});
+	
+</script>
+</head>
+<body>
+	<!-- <p> jQuery Exercises</p> -->
+	<div></div>
+	<p></p>
+
+</body>
+</html>
